@@ -1,3 +1,64 @@
-h1 {
-    color: red;
+/* Universal Styles */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h2, h4 {
+    margin: 0px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+     height: 50px;
+     margin-left: 10px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+
+/* Our Mission */
+
+.ourmission {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    background-image: url("./img-mission-background.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+
+.ourmission .heading {
+    height: 100px;
+    width: 1200px;
+    background-color: black;
 }
