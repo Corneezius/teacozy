@@ -58,6 +58,7 @@ nav span {
 .content {
     position: relative;
     top: 70px;
+    z-index: 5;
 }
 
 /* Our Mission */
@@ -70,7 +71,6 @@ nav span {
     background-image: url("./img-mission-background.jpg");
     overflow: hidden;
     margin: 0 auto;
-    z-index: 5;
 }
 
 .ourmission .heading {
@@ -80,6 +80,29 @@ nav span {
 }
 
 /* Tea of the Month Section */
+.teaofthemonth {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.allteas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tea {
+    margin: 10px 15px;
+}
+
+.tea h4 {
+    margin: 10px;
+    text-align: center;
+}
 
 /* Locaitons Section */
 
@@ -114,6 +137,18 @@ nav span {
     margin-top: 40px;
 }
 
+/* Contact Section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
 
+.contact h5 {
+    text-align: center;
+}
 
-.
+/* Footer*/
